@@ -9,7 +9,9 @@ Languages and tools used:
 
 HTML  
 CSS (stylesheet and reset)
+
 FontAwesome and FontSquirrel for icons and fonts
+
 Git, GitBash, Github
 
 What  I learned?
