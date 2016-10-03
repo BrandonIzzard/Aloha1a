@@ -4,66 +4,80 @@
  <head>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="fonts.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-	<title> ALOHA APPAREL </title>
+    <meta charset="utf-8">
+	 
+   <title> Aloha Apparel Co. </title>
 	
  </head>
  <body>
 
  <!--Header section -->
-  <header class="container">
-  	<section>
+  <header>
+  	<section class="container">
     	<img class="alohacart2" src="assets/images/aloha-logo.svg" alt="Aloha logo">
       <img class="alohacart1" src="assets/images/cart-icon.svg" alt="Cart Icon">
   	</section>
   </header>
 
   <!-- BANNER SECTION -->
+
  	<section class="banner">
-  <div class= banner-text-container>
- 		<p class="newcollection"> NEW COLLECTION </p><br>
- 		<h1>Spring/Summer 2016</h1>
-  </div>
+    <div class="banner-text-container">
+   		<p class="newcollection"> NEW COLLECTION </p>
+   		<h1>Spring/Summer 2016</h1>
+    </div>
 	</section>
 
-   <!--- Hand Crafted Section -->
-  <section class="textcenter container"><br>
-	    <h3><em>Hand-Crafted</em> <b>Styles</b></h3>
-	    <p class="handcrafted">Aloha Apperal Co sells only the finest ready-to-travel clothing. <br>
-	       Browse our current selection of products or sign-up for updates below.
-         <br></p>
+   <!---  Crafted Section -->
+
+  <section class="container">
+    <div class="hcstyles">
+    <div class="textcenter">
+	    <span class="pfditalic"> Hand-Crafted</span> <span class="pfdbold"> Styles</span>
+    </div>
+        <p class="hcstyles">Aloha Apperel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products or sign-up for updates below. 
+        </p>
+    </div>
+    
   </section>
 
+  <!-- Border line -->
+  <div class="line"></div> 
+
  <!--- Most Loved section -->
+        <div class="textcenter">
+          <span class="pfditalic">Most-Loved</span> 
+          <span class="pfdbold"> Products</span>
+        </div>
   <section class="mostloved container clearfix textcenter" >
-    <br>
-  		<h3>Most Loved Products</h3>
+        
+
   		<ul class="lovedproducts container">
         <div>
     			<li>
     				<ul><img  src="assets/images/stretch-knit-dress.jpg"  alt="Stretch Knit Dress"/>
-    					<li>DRESSES</li>
+    					<li><p class="lptext">DRESSES<p></li>
     					<h4>Stretch Knit Dress</h4>
-    					<li>$169.00</li>
+    					<li><p class="lptext">$169.00</p></li>
     				</ul>
     			</li>
         </div>
         <div>
     			<li>
     				<ul><img src="assets/images/cotton-blue-shirt.jpg" alt="Cotton Blue Shirt" />
-    					<li>SHIRTS</li>
+    					<li><p class="lptext">SHIRTS</p></li>
     					<h4>Cotton Blue Shirt</h4>
-    					<li>$89.00</li>
+    					<li><p class="lptext">$89.00</p></li>
     				</ul>
     			</li>
         </div>
         <div>
     			<li>
     			   <ul><img src="assets/images/checked-stretch-dress.jpg" alt="Checked Stretch Dress" />
-    					<li>DRESSES</li>
+    					<li><p class="lptext">DRESSES</p></li>
     					<h4>Checked Stretch Dress</h4>
-    					<li>$129.00</li>
+    					<li><p class="lptext">$129.00</p></li>
 
     				</ul>
     			</li>
@@ -71,49 +85,55 @@
         <div>
     			<li>
     			  <ul><li><img src="assets/images/blue-hipster-backpack.jpg" alt="Blue Hipster Backpack" />
-    					<li>BAGS</li>
+    					<li><p class="lptext">BAGS</p></li>
     					<h4>Blue Hipster Backpack</h4>
-    					<li>$69.00</li>
+    					<li><p class="lptext">$69.00</p></li>
     				</ul>
     			</li>
         </div>
   		</ul>
-  	</section>
-
- <!--- Sign up for updates section -->
-  	<br>
-    <section class="wavebg">
-      <div class="signup-text">
-      
-       <h3>Sign-Up for Updates</h3>
-        <p class="handcrafted">Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog. <br> Unsubscribe at any time.</p>
-    
-        <input type="email" name="email" class="subscribe-input" placeholder="Your Email " autofocus>
-        <button type="subscribe" class="subscribe-submit">Subscribe</button>
-     </div>
   </section>
 
- <!--- Social media links and copyright -->
-<footer class="container">
-  	<section class="infocopy clearfix container">
-    <div class="contacts">
-    	<p><i class="fa fa-copyright">  Copyright 2016 Aloha Apparel Co </i></p>
-    	<p>Powered by HTML and CSS</p>
-    	<a href="604-604-6040"> 604-604-6046</a> <br>
-      <a href=""> info@alohaapparel.com</a>
-    	<p>1490 W.Broadway</p>
-    	<p>Vancouver, BC, Canada</p>
+ <!--- Sign up for updates section -->
+  
+  
+  <section class="container wavebg" id="sufupdates">
+    <div class="sufupdates">
+    <div class="sufcenter">
+      <span class="pfditalic"> Sign-up for </span> <span class="pfdbold"> Updates</span>
+    </div>
+          <p class="sufupdates">Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
+          <form>
+            <input type="email" name="your_email" placeholder=" Your Email"/>
+            <input type="submit" name="subscribe" value="Subscribe" id="subscribe"/>
+          </form>
     </div>
 
-    <div class="social">
-  		<ul class="socialul">
-  			<li> <a href="facebook.com"> <i class="fa fa-facebook">   Facebook</i> </a></li>
-  			<li><a href="twitter.com">  <i class="fa fa-twitter">   Twitter </i> </a></li>
-  			<li><a href="instagram.com"> <i class="fa fa-instagram">   Instagram </i></a></li>
-  			<li><a href="Pintrest.com"> <i class="fa fa-pinterest">   Pinterest</i> </a></li>
-  			<li><a href="google.com"> <i class="fa fa-google-plus">   Google+ </i></a></li>
-  		</ul>
-    </div>
+    
+  </section>
+  
+
+ <!--- Social media links and copyright -->
+  <footer class="container">
+  	<section class="infocopy clearfix container">
+      <div class="contacts">
+      	<p><i class="fa fa-copyright"></i> 2016 Aloha Apparel Co.</p>
+      	<p>Powered by HTML and CSS.</p> 
+      	
+      	<p class="contactsnumber">604-604-6040.    <a class="underline" href="info@aloha.com">info@alohaapparel.com</a></p>
+      	<p class="contactsaddress">1490 W Broadway</p><br>
+      	<p class="contactsaddress">Vancouver, BC, Canada</p>
+      </div>
+
+      <div>
+    		<ul class="socialul">
+    			<li> <a href="facebook.com"> <i class="fa fa-facebook">  &nbsp;&nbsp; Facebook</i> </a></li><br>
+    			<li><a href="twitter.com">  <i class="fa fa-twitter"> &nbsp; Twitter </i> </a></li><br>	
+    			<li><a href="instagram.com"> <i class="fa fa-instagram">  &nbsp;&nbsp; Instagram </i></a></li><br>
+    			<li><a href="Pinterest.com"> <i class="fa fa-pinterest">  &nbsp;&nbsp; Pinterest</i> </a></li><br>
+    			<li><a href="google.com"> <i class="fa fa-google-plus"> &nbsp; Google+ </i></a></li>
+    		</ul>
+      </div>
   	</section>
   </footer>
  </body>
