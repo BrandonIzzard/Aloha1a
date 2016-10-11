@@ -1,14 +1,15 @@
-READ ME
 
-Project Aloha 1 A 
+Project Aloha 2 
 
-First week project Aloha Apparel Company web page.
+Second week project Aloha Apparel Company web page.
 
 
 Languages and tools used:
 
 HTML  
 CSS (stylesheet and reset)
+Javascript
+Jquery Plugins
 
 FontAwesome and FontSquirrel for icons and fonts
 
@@ -16,6 +17,7 @@ Git, GitBash, Github
 
 What  I learned?
 
-Getting a grasp on html and css skills. Reazlizing how important it is to stay organized.
-Frustrating trying to figure out certain things, but then google and youtube were my friend. 
-Will go back and solidify my basics with codeacademy.
+How hard it is to work under a tight schedule. Getting a grasp on Javascript and jQuery. 
+Fine tuning my skills of HTML and CSS. All lead to knowing that everyday I get slightly better. 
+Pracitce is very important for each language and the more I do it the more I realize how much I could have learned if I put in the effort earlier.
+Google will always be my good friend when I'm stuck. 

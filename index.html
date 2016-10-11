@@ -1,140 +1,172 @@
 <!DOCTYPE html>
 
-<html>
- <head>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-    <meta charset="utf-8">
-	 
-   <title> Aloha Apparel Co. </title>
-	
- </head>
- <body>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
 
- <!--Header section -->
-  <header>
-  	<section class="container">
-    	<img class="alohacart2" src="assets/images/aloha-logo.svg" alt="Aloha logo">
-      <img class="alohacart1" src="assets/images/cart-icon.svg" alt="Cart Icon">
-  	</section>
-  </header>
+  <title> Aloha Apparel Co. </title>
+</head>
+<body>
+  <h6> Aloha Apparel Website </h6>
 
-  <!-- BANNER SECTION -->
+  <!--Header section -->
+  <header class="container siteheader">
+   <div class= alohalogo>
+     <img class="alohalogo" src="assets/images/aloha-logo.svg" alt="Aloha logo">
+   </div>
+   <div class= "alohacart">
+    <img class="alohacart" src="assets/images/cart-icon.svg" alt="Cart Icon">
+  </div>
+  <ul class="navbar">
+    <li class="navlist"><a href="#hcstyles">about</a></li>
+    <li class="navlist"><a href="#categories">shop</a></li>
+    <li class="navlist"><a href="#mostloved">featured</a></li>
+    <li class="navlist"><a href="#sufupdates">updates</a></li>
+  </ul>
+</header>
 
- 	<section class="banner">
-    <div class="banner-text-container">
-   		<p class="newcollection"> NEW COLLECTION </p>
-   		<h1>Spring/Summer 2016</h1>
-    </div>
-	</section>
+<!-- BANNER SECTION -->
+<section class="banner">
+  <div class="banner-text-container">
+   <p class="newcollection uppercase"> new collecttion </p>
+   <h1>Spring/Summer 2016</h1>
+ </div>
+</section>
 
-   <!---  Crafted Section -->
-
-  <section class="container">
-    <div class="hcstyles">
+<!---  Crafted Section -->
+<section class="container">
+  <div class="hcstyles" id="hcstyles">
     <div class="textcenter">
-	    <span class="pfditalic"> Hand-Crafted</span> <span class="pfdbold"> Styles</span>
-    </div>
-        <p class="hcstyles">Aloha Apperel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products or sign-up for updates below. 
-        </p>
-    </div>
-    
-  </section>
+     <span class="pfditalic"> Hand-Crafted</span> <span class="pfdbold"> Styles</span>
+   </div>
+   <p class="hcstyles">Aloha Apperel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products or sign-up for updates below. 
+   </p>
+ </div>
 
-  <!-- Border line -->
-  <div class="line"></div> 
+</section>
 
- <!--- Most Loved section -->
-        <div class="textcenter">
-          <span class="pfditalic">Most-Loved</span> 
-          <span class="pfdbold"> Products</span>
-        </div>
-  <section class="mostloved container clearfix textcenter" >
-        
+<!-- CATEGORIES ***************************** -->
+<section class="categories uppercase" id="categories"> <!-- CATEGORIES -->
+  <a href="#" class= "mens"><span>men's</span></a>
+  <a href="#" class= "trends"><span>trends</span></a>
+  <a href="#" class= "glasses"><span>glasses</span></a>
+  <a href="#" class= "sale"><span>sale</span> </a>
+  <a href="#" class= "bags"><p>bags</p> </a>
+  <a href="#" class= "womens"><span>women's</span></a>
+</section>
 
-  		<ul class="lovedproducts container">
-        <div>
-    			<li>
-    				<ul><img  src="assets/images/stretch-knit-dress.jpg"  alt="Stretch Knit Dress"/>
-    					<li><p class="lptext">DRESSES<p></li>
-    					<h4>Stretch Knit Dress</h4>
-    					<li><p class="lptext">$169.00</p></li>
-    				</ul>
-    			</li>
-        </div>
-        <div>
-    			<li>
-    				<ul><img src="assets/images/cotton-blue-shirt.jpg" alt="Cotton Blue Shirt" />
-    					<li><p class="lptext">SHIRTS</p></li>
-    					<h4>Cotton Blue Shirt</h4>
-    					<li><p class="lptext">$89.00</p></li>
-    				</ul>
-    			</li>
-        </div>
-        <div>
-    			<li>
-    			   <ul><img src="assets/images/checked-stretch-dress.jpg" alt="Checked Stretch Dress" />
-    					<li><p class="lptext">DRESSES</p></li>
-    					<h4>Checked Stretch Dress</h4>
-    					<li><p class="lptext">$129.00</p></li>
+<!--- Most Loved section -->
+<div class="textcenter" id="mostloved">
+  <span class="pfditalic">Most-Loved</span> 
+  <span class="pfdbold"> Products</span>
+</div>
+<section class="mostloved container clearfix textcenter"  >
 
-    				</ul>
-    			</li>
-        </div>
-        <div>
-    			<li>
-    			  <ul><li><img src="assets/images/blue-hipster-backpack.jpg" alt="Blue Hipster Backpack" />
-    					<li><p class="lptext">BAGS</p></li>
-    					<h4>Blue Hipster Backpack</h4>
-    					<li><p class="lptext">$69.00</p></li>
-    				</ul>
-    			</li>
-        </div>
-  		</ul>
-  </section>
 
- <!--- Sign up for updates section -->
+  <ul class="lovedproducts carousel container" data-flickity='{ "wrapAround": true }'>
+
+   <li class="carousel-cell">
+    <img  src="assets/images/stretch-knit-dress.jpg"  alt="Image Stretch Knit Dress"/>
+    <h5 class="uppercase">dresses</h5>
+    <h4>Stretch Knit Dress</h4>
+    <h5>$169.00</h5>
+  </li>
   
-  
-  <section class="container wavebg" id="sufupdates">
-    <div class="sufupdates">
+  <li class="carousel-cell">
+    <img src="assets/images/cotton-blue-shirt.jpg" alt="Image Cotton Blue Shirt" />
+    <h5 class= "uppercase">shirts</h5>
+    <h4>Cotton Blue Shirt</h4>
+    <h5>$89.00</h5>
+  </li>
+
+  <li class="carousel-cell">
+    <img src="assets/images/checked-stretch-dress.jpg" alt=" Image Checked Stretch Dress" />
+    <h5 class= "uppercase">dresses</h5>
+    <h4>Checked Stretch Dress</h4>
+    <h5>$129.00</h5>
+  </li>
+
+  <li class="carousel-cell">
+   <img src="assets/images/blue-hipster-backpack.jpg" alt="Image Blue Hipster Backpack" />
+   <h5 class= "uppercase">bags</h5>
+   <h4>Blue Hipster Backpack</h4>
+   <h5>$69.00</h5>
+ </li>
+
+ <li class="carousel-cell">
+   <img src="assets/images/denim-overall-shorts.jpg" alt="Image Denim Overall Shorts" />
+   <h5 class= "uppercase">denims</h5>
+   <h4>Denim Overall Shorts</h4>
+   <h5>$89.00</h5>
+ </li>
+
+ <li class="carousel-cell">
+   <img src="assets/images/pink-dotted-dress.jpg" alt="Image Pink Dotted Dress" />
+   <h5 class= "uppercase">dresses</h5>
+   <h4>Pink Dotted Dress</h4>
+   <h5>$99.00</h5>
+ </li>
+
+ <li class="carousel-cell">
+   <img src="assets/images/blue-silk-dress.jpg" alt="Image Blue Silk Dress" />
+   <h5 class= "uppercase">dresses</h5>
+   <h4>Blue Silk Dress</h4>
+   <h5>$119.00</h5>
+ </li>
+
+ <li class="carousel-cell">
+   <img src="assets/images/cotton-yellow-tshirt.jpg" alt="Image Cotton Yellow Shirt" />
+   <h5 class= "uppercase">shirts</h5>
+   <h4>Cotton Yellow TShirt</h4>
+   <h5>$39.00</h5>
+ </li>
+
+</ul>
+</section>
+
+<!--- Sign up for updates section -->
+<section class="container wavebg" id="sufupdates">
+  <div class="sufupdates">
     <div class="sufcenter">
       <span class="pfditalic"> Sign-up for </span> <span class="pfdbold"> Updates</span>
     </div>
-          <p class="sufupdates">Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
-          <form>
-            <input type="email" name="your_email" placeholder=" Your Email"/>
-            <input type="submit" name="subscribe" value="Subscribe" id="subscribe"/>
-          </form>
-    </div>
+    <p class="sufupdates">Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
+    <form class="validate">
+      <input type="email" name="your_email" placeholder=" Your Email"/>
+      <input type="submit" name="subscribe" value="Subscribe" id="subscribe"/>
+    </form>
+  </div>
+</section>
 
-    
-  </section>
-  
+<!--- Social media links and copyright -->
+<footer class="container">
+ <section class="infocopy container">
+  <div class="contacts">
+   <p><i class="fa fa-copyright"></i> 2016 Aloha Apparel Co.</p>
+   <p>Powered by HTML and CSS.</p> 
 
- <!--- Social media links and copyright -->
-  <footer class="container">
-  	<section class="infocopy clearfix container">
-      <div class="contacts">
-      	<p><i class="fa fa-copyright"></i> 2016 Aloha Apparel Co.</p>
-      	<p>Powered by HTML and CSS.</p> 
-      	
-      	<p class="contactsnumber">604-604-6040.    <a class="underline" href="info@aloha.com">info@alohaapparel.com</a></p>
-      	<p class="contactsaddress">1490 W Broadway</p><br>
-      	<p class="contactsaddress">Vancouver, BC, Canada</p>
-      </div>
+   <p class="contactsnumber">604-604-6040.    <a class="underline" href="info@aloha.com">info@alohaapparel.com</a></p>
+   <p class="contactsaddress">1490 W Broadway<br> Vancouver, BC, Canada</p>
+ </div>
 
-      <div>
-    		<ul class="socialul">
-    			<li> <a href="facebook.com"> <i class="fa fa-facebook">  &nbsp;&nbsp; Facebook</i> </a></li><br>
-    			<li><a href="twitter.com">  <i class="fa fa-twitter"> &nbsp; Twitter </i> </a></li><br>	
-    			<li><a href="instagram.com"> <i class="fa fa-instagram">  &nbsp;&nbsp; Instagram </i></a></li><br>
-    			<li><a href="Pinterest.com"> <i class="fa fa-pinterest">  &nbsp;&nbsp; Pinterest</i> </a></li><br>
-    			<li><a href="google.com"> <i class="fa fa-google-plus"> &nbsp; Google+ </i></a></li>
-    		</ul>
-      </div>
-  	</section>
-  </footer>
- </body>
+ <div class="socialul">
+   <ul>
+     <li> <a href="#"> <i class="fa fa-facebook">&nbsp;</i>  <span>&nbsp;&nbsp; Facebook</span> </a></li>
+     <li><a href="#">  <i class="fa fa-twitter">&nbsp;</i> <span>&nbsp; Twitter</span>  </a></li>
+     <li><a href="#"> <i class="fa fa-instagram">&nbsp;</i> <span> &nbsp;&nbsp; Instagram </span></a></li>
+     <li><a href="#"> <i class="fa fa-pinterest">&nbsp;</i>  <span>&nbsp;&nbsp; Pinterest</span> </a></li>
+     <li><a href="#"> <i class="fa fa-google-plus">&nbsp;</i><span>&nbsp; Google+</span> </a></li>
+   </ul>
+
+ </div>
+</section>
+</footer>
+<script src="jquery-3.1.1.js"></script>
+<script src="flickity.pkgd.js"></script>
+<script src="main.js"></script>
+</body>
 </html>
