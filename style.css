@@ -606,7 +606,7 @@ input[type="submit"]  {
   color: white;
   padding: 7px 13px; 
   text-align: center;
-  margin-top: 2px;
+  margin-top: 1px;
   font-family: "Raleway", sans-serif;
 }
 input[type="submit"]:hover {
