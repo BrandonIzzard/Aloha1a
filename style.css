@@ -443,7 +443,7 @@ h6 {
   color: #D2B48C;
 }
 .mens {
-  height: 300px;
+  height: 200px;
   background:
   linear-gradient(
     rgba(0, 0, 0, 0.2),
@@ -455,7 +455,7 @@ h6 {
   margin-bottom: 1%;
 }
 .trends {
-  height: 300px;
+  height: 200px;
   background:
   linear-gradient(
     rgba(0, 0, 0, 0.2),
@@ -468,7 +468,7 @@ h6 {
   margin-bottom: 1%;
 }
 .glasses {
-  height: 300px;
+  height: 200px;
   background:
   linear-gradient(
     rgba(0, 0, 0, 0.2),
@@ -480,7 +480,7 @@ h6 {
   margin-bottom: 1%;
 }
 .sale {
-  height: 300px;
+  height: 200px;
   background:
   linear-gradient(
     rgba(0, 0, 0, 0.2),
@@ -493,7 +493,7 @@ h6 {
   margin-bottom: 1%;
 }
 .bags {
-  height: 300px;
+  height: 200px;
   background:
   linear-gradient(
     rgba(0, 0, 0, 0.2),
@@ -505,7 +505,7 @@ h6 {
   margin-bottom: 1%;
 }
 .womens {
-  height: 300px;
+  height: 200px;
   background:
   linear-gradient(
     rgba(0, 0, 0, 0.2),
@@ -712,31 +712,37 @@ footer p{
     flex: 1 0 49.1%;
     margin-right: 7px;
     margin-bottom: 7px;
+    height: 250px;
   }
 
   .trends {
     flex: 1 0 24%;
     margin-right: 7px;
     margin-bottom: 7px;
+    height: 250px;
   }
   .glasses {
     flex: 1 0 24%;
     margin-bottom: 7px;
+    height: 250px;
   }
 
   .sale {
     flex: 1 0 23.8%;
     margin-right: 7px;
     margin-bottom: 5%;
+    height: 250px;
   }
   .bags {
     flex: 1 0 23.8%;
     margin-right: 7px;
     margin-bottom: 5%;
+    height: 250px;
   }
   .womens {
     flex: 1 0 49%;
     margin-bottom: 5%;
+    height: 250px;
   }
 
   .lovedproducts li {
@@ -790,6 +796,43 @@ footer p{
 
   .lovedproducts li {
     width: 25%;
+  }
+
+ .mens {
+    flex: 1 0 49.1%;
+    margin-right: 7px;
+    margin-bottom: 7px;
+    height: 300px;
+  }
+
+  .trends {
+    flex: 1 0 24%;
+    margin-right: 7px;
+    margin-bottom: 7px;
+    height: 300px;
+  }
+  .glasses {
+    flex: 1 0 24%;
+    margin-bottom: 7px;
+    height: 300px;
+  }
+
+  .sale {
+    flex: 1 0 23.8%;
+    margin-right: 7px;
+    margin-bottom: 5%;
+    height: 300px;
+  }
+  .bags {
+    flex: 1 0 23.8%;
+    margin-right: 7px;
+    margin-bottom: 5%;
+    height: 300px;
+  }
+  .womens {
+    flex: 1 0 49%;
+    margin-bottom: 5%;
+    height: 300px;
   }
 
 
