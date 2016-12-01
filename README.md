@@ -3,6 +3,8 @@ Project Aloha 2
 
 Second week project Aloha Apparel Company web page.
 
+![Site Pic](http://i.imgur.com/IPQtHly.png)
+
 
 Languages and tools used:
 
